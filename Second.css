@@ -1,0 +1,112 @@
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+
+
+.bgimg {
+  font-family: latha;
+  color: #f2f2f2;
+  min-height: 90%;
+  background-size: cover;
+  background-repeat: no repeat;
+
+  background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__340.jpg");
+}
+
+
+
+
+
+
+.box {
+  width: 900px;
+  float: right;
+  border: 1px solid none;
+}
+.box ul li {
+  width: 120px;
+  float: left;
+  margin: 10px auto;
+  text-align: center;
+}
+.box ul li a {
+  text-decoration: none;
+  color: darkgray;
+}
+.box ul li:hover {
+  background-color:gray;
+}
+.box ul li a:hover {
+  color: #f2f2f2;
+}
+.wd {
+  width: 300px;
+  height: 530px;
+  background-color: black;
+  opacity: 0.9;
+  padding: 55px;
+  
+}
+.wd h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100px;
+}
+.wd h4 {
+  text-align: justify;
+  color: darkgray;
+  font-weight: bold;
+  margin: 8px -20px;
+}
+
+.opt form, input[type="button"] {
+  background-color: black;
+  color: #f2f2f2;
+  padding: 10px;
+  margin: -5px -20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  
+}
+form, input[type="button"]:hover{
+  background-color: gray;
+}
+.icons {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+  
+
+.icons a {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color:black;
+  text-align: center;
+  margin: 10px ;
+  line-height: 50px;
+  box-shadow: 1px 4px 2px 2px #dcdde1;
+  
+}
+.icons a i {
+  transition: all 0.3s linear;
+}
+.icons a:hover i {
+  transform: scale(1.4);
+}
+.bnavbar {
+  width: 1530px;
+  float: right;
+  border: 1px solid none;
+  background-color: black;
+}
+
+
+
+
+
+
